@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+	
+.section1 {
+	width: 100vw;
+	height: 100vh;
+	background: url(images/black-and-white-photography-of-a-man-holding-guitar-2529174.jpg);
+	background-position: bottom;
+	background-size: cover;
+	position: relative;
+}
+
+.clip1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 30%;
+	background-color: yellow;
+	clip-path: polygon(0% 0%, 100% 0, 100% 100%, 50% 100%);
+	mix-blend-mode: multiply;
+}	
+
+.section2 {
+	width: 100vw;
+	height: 50vh;
+	background: #f00;
+	clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section2 p {
+	display: inline-block;
+	color: white;
+	padding: 0.5em;
+	background: black;
+}
